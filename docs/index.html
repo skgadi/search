@@ -57,6 +57,13 @@
 	<meta name="twitter:creator" content="@SureshKumarGadi" />
 	
 <style>
+html{
+	background-image:url('background.jpg');
+    background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 body {
 	padding: 16px;
 	max-width: 800px;
@@ -64,7 +71,11 @@ body {
 	font-family: 'Univers 57 Condensed';
 }
 
-.heading > img {
+.heading {
+	padding-bottom: 16px;
+}
+
+.heading > a > img {
 	vertical-align: middle;
 	width: 64px;
 	border-radius: 5px;
@@ -89,7 +100,7 @@ body {
 <body>
 
 <div  class="heading">
-  <img src="search-logo.png" alt="search logo icon">
+  <a href="/"><img src="search-logo.png" alt="search logo icon"></a>
   <span>
 	  <div>
 		<h1>Search for <a href="https://SKGadi.com">SKGadi.com</a></h1>
